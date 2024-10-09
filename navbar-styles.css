@@ -1,0 +1,49 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333; /* Fondo oscuro */
+    padding: 15px 20px;    /* Espaciado dentro de la barra */
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;           /* Color blanco para el logo */
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #ddd;           /* Color claro para los enlaces */
+    margin-right: 15px;    /* Espacio entre los enlaces */
+    font-size: 1.2rem;     /* Tamaño de letra de los enlaces */
+    transition: color 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.navbar .nav-link:hover {
+    color: #fff;           /* Cambiar a blanco al pasar el ratón */
+}
+
+.navbar .nav-link.active {
+    color: #f8f9fa;        /* Color especial para la página activa */
+}
+
+.navbar-toggler {
+    border-color: #fff;    /* Color de borde para el botón de hamburguesa */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Color del icono de la hamburguesa */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar .nav-link {
+        color: #ddd;
+        font-size: 1rem;    /* Reducir tamaño en pantallas pequeñas */
+    }
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: coral !important; /* Cambiar color o aplicar cualquier otro estilo */
+
+    background-color: #fefefe; /* Fondo azul para el enlace activo */
+}
